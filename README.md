@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/RitamRoa/RitamRoa/roa-banner.svg" alt="Banner" />
+  <img src="https://github.com/RitamRoa/RitamRoa/blob/main/roa-banner.svg" alt="Banner" />
 </p>
 
 # 💫 About Me:
