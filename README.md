@@ -1,24 +1,5 @@
 <p align="center">
-  <svg width="1000" height="300" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect width="1000" height="300" fill="#1a2233"/>
-    <!-- Lightning bolt -->
-    <polyline points="700,0 720,80 680,120 740,200 700,300" stroke="#fff" stroke-width="10" fill="none"/>
-    <!-- Batman/coder silhouette (simple) -->
-    <ellipse cx="720" cy="200" rx="50" ry="70" fill="#111"/>
-    <rect x="690" y="180" width="60" height="35" fill="#111"/>
-    <polygon points="720,120 760,180 680,180" fill="#111"/>
-    <!-- Tech icons (simple circles as placeholders) -->
-    <circle cx="200" cy="80" r="16" fill="#3ECF8E" opacity="0.3"/>
-    <circle cx="300" cy="250" r="14" fill="#F7DF1E" opacity="0.3"/>
-    <circle cx="900" cy="100" r="12" fill="#3982CE" opacity="0.3"/>
-    <circle cx="850" cy="270" r="10" fill="#E34F26" opacity="0.3"/>
-    <circle cx="400" cy="160" r="10" fill="#00C4CC" opacity="0.3"/>
-    <!-- Main text -->
-    <text x="80" y="140" font-size="48" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-weight="bold">Ritam Roa</text>
-    <text x="80" y="190" font-size="22" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-style="italic">
-      "Why do we fall, Roa? So that we can learn to pick ourselves up."
-    </text>
-  </svg>
+  <img src="https://github.com/RitamRoa/RitamRoa/blob/main/roa-banner.svg" alt="Banner" />
 </p>
 
 # 💫 About Me:
