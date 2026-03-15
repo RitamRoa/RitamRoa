@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="Banner" />
+  <img src="https://github.com/RitamRoa/RitamRoa/blob/main/iasip_banner_preview.html" alt="Banner" />
 </p>
 
 # About Me:
