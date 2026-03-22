@@ -2,9 +2,11 @@
   <img src="https://github.com/RitamRoa/RitamRoa/blob/main/banner.svg" alt="Banner" />
 </p>
 
-## Socials:
+## `> SOCIALS`
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ritam.roa) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ritam-roa) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:ritamrao48@gmail.com)
+[![](https://img.shields.io/badge/-@ritam.roa-0a0000?style=flat-square&logo=instagram&logoColor=8B0000)](https://instagram.com/ritam.roa)&nbsp;
+[![](https://img.shields.io/badge/-ritam--roa-0a0000?style=flat-square&logo=linkedin&logoColor=8B0000)](https://www.linkedin.com/in/ritam-roa)&nbsp;
+[![](https://img.shields.io/badge/-ritamrao48@gmail.com-0a0000?style=flat-square&logo=gmail&logoColor=8B0000)](mailto:ritamrao48@gmail.com)
 
 # Tech Stack:
 
