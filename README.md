@@ -2,7 +2,7 @@
   <img src="https://github.com/RitamRoa/RitamRoa/blob/main/banner.svg" alt="Banner" />
 </p>
 
-## <img src="https://img.shields.io/badge/>_SOCIALS-0a0000?style=flat-square&logoColor=ff003c" />
+### `> SOC.IALS`
 
 [![](https://img.shields.io/badge/-@ritam.roa-0a0000?style=flat-square&logo=instagram&logoColor=ff003c)](https://instagram.com/ritam.roa)&nbsp;
 [![](https://img.shields.io/badge/-ritam--roa-0a0000?style=flat-square&logo=linkedin&logoColor=ff003c)](https://www.linkedin.com/in/ritam-roa)&nbsp;
