@@ -1,14 +1,12 @@
 <p align="center">
   <img src="https://github.com/RitamRoa/RitamRoa/blob/main/banner.svg" alt="Banner" />
 </p>
-### `> SOCIALS`
-```text
-~$ connect  @ritam.roa        → instagram.com/ritam.roa
-~$ connect  ritam-roa         → linkedin.com/in/ritam-roa  
-~$ send     ritamrao48@gmail.com
-```
 
-[![](https://img.shields.io/badge/-@ritam.roa-0a0000?style=flat-square&logo=instagram&logoColor=ff003c)](https://instagram.com/ritam.roa)&nbsp;[![](https://img.shields.io/badge/-ritam--roa-0a0000?style=flat-square&logo=linkedin&logoColor=ff003c)](https://www.linkedin.com/in/ritam-roa)&nbsp;[![](https://img.shields.io/badge/-ritamrao48@gmail.com-0a0000?style=flat-square&logo=gmail&logoColor=ff003c)](mailto:ritamrao48@gmail.com)
+## <img src="https://img.shields.io/badge/>_SOCIALS-0a0000?style=flat-square&logoColor=ff003c" />
+
+[![](https://img.shields.io/badge/-@ritam.roa-0a0000?style=flat-square&logo=instagram&logoColor=ff003c)](https://instagram.com/ritam.roa)&nbsp;
+[![](https://img.shields.io/badge/-ritam--roa-0a0000?style=flat-square&logo=linkedin&logoColor=ff003c)](https://www.linkedin.com/in/ritam-roa)&nbsp;
+[![](https://img.shields.io/badge/-ritamrao48@gmail.com-0a0000?style=flat-square&logo=gmail&logoColor=ff003c)](mailto:ritamrao48@gmail.com)
 
 # Tech Stack:
 
