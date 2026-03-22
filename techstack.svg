@@ -1,0 +1,202 @@
+<svg width="860" height="520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="sepgrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0a0000"/>
+      <stop offset="30%" stop-color="#ff003c22"/>
+      <stop offset="70%" stop-color="#ff003c11"/>
+      <stop offset="100%" stop-color="#0a0000"/>
+    </linearGradient>
+    <linearGradient id="catline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ff003c33"/>
+      <stop offset="100%" stop-color="#0a0000"/>
+    </linearGradient>
+    <linearGradient id="glowgrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff003c" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0a0000" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="titleglow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <!-- scanline pattern -->
+    <pattern id="scan" x="0" y="0" width="860" height="4" patternUnits="userSpaceOnUse">
+      <rect x="0" y="3" width="860" height="1" fill="#ff003c" opacity="0.018"/>
+    </pattern>
+  </defs>
+
+  <!-- background -->
+  <rect width="860" height="520" fill="#060001" rx="10"/>
+  <!-- glow at top -->
+  <rect width="860" height="200" fill="url(#glowgrad)" rx="10"/>
+  <!-- scanlines -->
+  <rect width="860" height="520" fill="url(#scan)" rx="10"/>
+  <!-- outer border -->
+  <rect width="860" height="520" fill="none" stroke="#ff003c" stroke-width="1" stroke-opacity="0.3" rx="10"/>
+
+  <!-- topbar bg -->
+  <rect width="860" height="36" fill="#0e0002" rx="10"/>
+  <rect y="10" width="860" height="26" fill="#0e0002"/>
+  <line x1="0" y1="36" x2="860" y2="36" stroke="#ff003c" stroke-width="0.5" stroke-opacity="0.4"/>
+
+  <!-- topbar dots -->
+  <circle cx="20" cy="18" r="4" fill="#ff003c" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="34" cy="18" r="4" fill="#550011"/>
+  <circle cx="48" cy="18" r="4" fill="#2a0008"/>
+
+  <!-- topbar title -->
+  <text x="64" y="22" font-family="Courier New, monospace" font-size="9" fill="#ff003c" letter-spacing="3" filter="url(#glow)">SYSTEM :: TECH_STACK.SYS</text>
+  <text x="730" y="22" font-family="Courier New, monospace" font-size="8" fill="#330008" letter-spacing="2">PID_7749 // ACTIVE</text>
+
+  <!-- heading section -->
+  <!-- big TECH title -->
+  <text x="24" y="86" font-family="Courier New, monospace" font-size="40" font-weight="900" fill="#ff003c" letter-spacing="6" filter="url(#titleglow)">TECH</text>
+  <text x="24" y="126" font-family="Courier New, monospace" font-size="40" font-weight="900" fill="#ff003c" letter-spacing="6" filter="url(#titleglow)">STACK</text>
+
+  <!-- meta info -->
+  <text x="230" y="72" font-family="Courier New, monospace" font-size="8" fill="#ff003c44" letter-spacing="2">// v2026.03</text>
+  <text x="230" y="88" font-family="Courier New, monospace" font-size="8" fill="#330008" letter-spacing="2">20 MODULES INSTALLED</text>
+  <text x="230" y="102" font-family="Courier New, monospace" font-size="8" fill="#330008" letter-spacing="2">4 CATEGORIES MOUNTED</text>
+  <text x="230" y="118" font-family="Courier New, monospace" font-size="8" fill="#ff003c33" letter-spacing="2">STATUS: OPERATIONAL</text>
+
+  <!-- heading separator -->
+  <line x1="24" y1="138" x2="836" y2="138" stroke="url(#sepgrad)" stroke-width="1"/>
+
+  <!-- ═══ CATEGORY: LANGUAGES ═══ -->
+  <text x="24" y="162" font-family="Courier New, monospace" font-size="8" fill="#ff003c" letter-spacing="1">▸</text>
+  <text x="36" y="162" font-family="Courier New, monospace" font-size="8" fill="#880022" letter-spacing="3">LANGUAGES</text>
+  <line x1="130" y1="158" x2="760" y2="158" stroke="url(#catline)" stroke-width="0.5"/>
+  <text x="770" y="162" font-family="Courier New, monospace" font-size="7" fill="#330008" letter-spacing="1">07 FILES</text>
+
+  <!-- Language badges row -->
+  <!-- C -->
+  <rect x="24" y="170" width="44" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="36" y="186" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">C</text>
+  <text x="42" y="191" font-family="Courier New, monospace" font-size="6" fill="#330008">.lang</text>
+  <!-- C++ -->
+  <rect x="74" y="170" width="54" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="86" y="186" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">C++</text>
+  <text x="102" y="191" font-family="Courier New, monospace" font-size="6" fill="#330008">.lang</text>
+  <!-- JavaScript -->
+  <rect x="134" y="170" width="104" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="146" y="186" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">JAVASCRIPT</text>
+  <text x="220" y="191" font-family="Courier New, monospace" font-size="6" fill="#330008">.js</text>
+  <!-- Python -->
+  <rect x="244" y="170" width="74" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="256" y="186" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">PYTHON</text>
+  <text x="304" y="191" font-family="Courier New, monospace" font-size="6" fill="#330008">.py</text>
+  <!-- PowerShell -->
+  <rect x="324" y="170" width="104" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="336" y="186" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">POWERSHELL</text>
+  <text x="408" y="191" font-family="Courier New, monospace" font-size="6" fill="#330008">.ps1</text>
+  <!-- HTML5 -->
+  <rect x="434" y="170" width="70" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="446" y="186" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">HTML5</text>
+  <text x="490" y="191" font-family="Courier New, monospace" font-size="6" fill="#330008">.html</text>
+  <!-- CSS3 -->
+  <rect x="510" y="170" width="60" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="522" y="186" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">CSS3</text>
+  <text x="552" y="191" font-family="Courier New, monospace" font-size="6" fill="#330008">.css</text>
+
+  <!-- separator -->
+  <line x1="24" y1="206" x2="836" y2="206" stroke="url(#sepgrad)" stroke-width="1"/>
+
+  <!-- ═══ CATEGORY: FRAMEWORKS ═══ -->
+  <text x="24" y="224" font-family="Courier New, monospace" font-size="8" fill="#ff003c" letter-spacing="1">▸</text>
+  <text x="36" y="224" font-family="Courier New, monospace" font-size="8" fill="#880022" letter-spacing="3">FRAMEWORKS &amp; TOOLS</text>
+  <line x1="210" y1="220" x2="760" y2="220" stroke="url(#catline)" stroke-width="0.5"/>
+  <text x="770" y="224" font-family="Courier New, monospace" font-size="7" fill="#330008" letter-spacing="1">04 FILES</text>
+
+  <!-- React -->
+  <rect x="24" y="232" width="68" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="36" y="248" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">REACT</text>
+  <text x="72" y="253" font-family="Courier New, monospace" font-size="6" fill="#330008">.jsx</text>
+  <!-- TailwindCSS -->
+  <rect x="98" y="232" width="114" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="110" y="248" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">TAILWINDCSS</text>
+  <text x="192" y="253" font-family="Courier New, monospace" font-size="6" fill="#330008">.cfg</text>
+  <!-- Vercel -->
+  <rect x="218" y="232" width="74" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="230" y="248" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">VERCEL</text>
+  <text x="268" y="253" font-family="Courier New, monospace" font-size="6" fill="#330008">.env</text>
+  <!-- Prisma -->
+  <rect x="298" y="232" width="74" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="310" y="248" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">PRISMA</text>
+  <text x="348" y="253" font-family="Courier New, monospace" font-size="6" fill="#330008">.schema</text>
+
+  <!-- separator -->
+  <line x1="24" y1="268" x2="836" y2="268" stroke="url(#sepgrad)" stroke-width="1"/>
+
+  <!-- ═══ CATEGORY: DATABASES ═══ -->
+  <text x="24" y="286" font-family="Courier New, monospace" font-size="8" fill="#ff003c" letter-spacing="1">▸</text>
+  <text x="36" y="286" font-family="Courier New, monospace" font-size="8" fill="#880022" letter-spacing="3">DATABASES</text>
+  <line x1="120" y1="282" x2="760" y2="282" stroke="url(#catline)" stroke-width="0.5"/>
+  <text x="770" y="286" font-family="Courier New, monospace" font-size="7" fill="#330008" letter-spacing="1">05 FILES</text>
+
+  <!-- MongoDB -->
+  <rect x="24" y="294" width="90" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="36" y="310" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">MONGODB</text>
+  <text x="96" y="315" font-family="Courier New, monospace" font-size="6" fill="#330008">.db</text>
+  <!-- MySQL -->
+  <rect x="120" y="294" width="74" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="132" y="310" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">MYSQL</text>
+  <text x="168" y="315" font-family="Courier New, monospace" font-size="6" fill="#330008">.sql</text>
+  <!-- Supabase -->
+  <rect x="200" y="294" width="94" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="212" y="310" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">SUPABASE</text>
+  <text x="276" y="315" font-family="Courier New, monospace" font-size="6" fill="#330008">.db</text>
+  <!-- SQLite -->
+  <rect x="300" y="294" width="74" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="312" y="310" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">SQLITE</text>
+  <text x="348" y="315" font-family="Courier New, monospace" font-size="6" fill="#330008">.db</text>
+  <!-- Postgres -->
+  <rect x="380" y="294" width="90" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="392" y="310" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">POSTGRES</text>
+  <text x="448" y="315" font-family="Courier New, monospace" font-size="6" fill="#330008">.sql</text>
+
+  <!-- separator -->
+  <line x1="24" y1="330" x2="836" y2="330" stroke="url(#sepgrad)" stroke-width="1"/>
+
+  <!-- ═══ CATEGORY: CREATIVE ═══ -->
+  <text x="24" y="348" font-family="Courier New, monospace" font-size="8" fill="#ff003c" letter-spacing="1">▸</text>
+  <text x="36" y="348" font-family="Courier New, monospace" font-size="8" fill="#880022" letter-spacing="3">CREATIVE &amp; OTHER</text>
+  <line x1="200" y1="344" x2="760" y2="344" stroke="url(#catline)" stroke-width="0.5"/>
+  <text x="770" y="348" font-family="Courier New, monospace" font-size="7" fill="#330008" letter-spacing="1">04 FILES</text>
+
+  <!-- Canva -->
+  <rect x="24" y="356" width="74" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="36" y="372" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">CANVA</text>
+  <text x="72" y="377" font-family="Courier New, monospace" font-size="6" fill="#330008">.design</text>
+  <!-- Blender -->
+  <rect x="104" y="356" width="84" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="116" y="372" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">BLENDER</text>
+  <text x="172" y="377" font-family="Courier New, monospace" font-size="6" fill="#330008">.blend</text>
+  <!-- GitHub -->
+  <rect x="194" y="356" width="80" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="206" y="372" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">GITHUB</text>
+  <text x="248" y="377" font-family="Courier New, monospace" font-size="6" fill="#330008">.git</text>
+  <!-- Unity -->
+  <rect x="280" y="356" width="68" height="24" fill="#0c0002" rx="3" stroke="#ff003c33" stroke-width="1"/>
+  <text x="292" y="372" font-family="Courier New, monospace" font-size="10" font-weight="700" fill="#cc0028" letter-spacing="1">UNITY</text>
+  <text x="326" y="377" font-family="Courier New, monospace" font-size="6" fill="#330008">.scene</text>
+
+  <!-- footer separator -->
+  <line x1="0" y1="396" x2="860" y2="396" stroke="#ff003c22" stroke-width="1"/>
+
+  <!-- footer -->
+  <rect x="0" y="396" width="860" height="30" fill="#0a0001"/>
+  <text x="24" y="416" font-family="Courier New, monospace" font-size="8" fill="#220006" letter-spacing="2">// ALL SYSTEMS NOMINAL — NO ERRORS DETECTED</text>
+  <text x="760" y="416" font-family="Courier New, monospace" font-size="8" fill="#ff003c44" letter-spacing="2">
+    █ ONLINE
+    <animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- bottom border radius fix -->
+  <rect x="0" y="416" width="860" height="10" fill="#0a0001"/>
+  <rect x="0" y="410" width="860" height="16" fill="#0a0001" rx="0"/>
+</svg>
