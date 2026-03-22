@@ -20,14 +20,20 @@
 
 </div>
 
-# GitHub Stats:
+### `> GITHUB.STATS`
 
-![](https://github-readme-stats.vercel.app/api?username=RitamRoa&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=RitamRoa&theme=dark&hide_border=false)<br/>
+<div align="left">
 
-## GitHub Trophies
+<img src="https://github-readme-stats.vercel.app/api?username=RitamRoa&show_icons=true&theme=transparent&hide_border=true&title_color=ff003c&icon_color=ff003c&text_color=880022&bg_color=0a0000&ring_color=ff003c" height="160"/>
+<img src="https://nirzak-streak-stats.vercel.app/?user=RitamRoa&theme=transparent&hide_border=true&stroke=ff003c22&ring=ff003c&fire=ff003c&currStreakLabel=ff003c&sideLabels=880022&currStreakNum=ff003c&sideNums=cc0028&dates=330008&background=0a0000" height="160"/>
 
-![](https://github-profile-trophy.vercel.app/?username=RitamRoa&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+</div>
+
+<div align="left">
+
+![](https://github-profile-trophy.vercel.app/?username=RitamRoa&theme=radical&no-frame=true&no-bg=true&margin-w=4&title_color=ff003c&column=6)
+
+</div>
 
 [![An image of @ritamroa's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/ritamroa)](https://holopin.io/@ritamroa)
 
