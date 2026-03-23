@@ -29,6 +29,13 @@
 
 </div>
 
+### `> GITHUB.TROPHIES`
+<div align="left">
+  
+![](https://github-trophies.vercel.app/?username=RitamRoa&theme=radical&no-frame=true&no-bg=true&margin-w=4)
+
+</div>
+
 ### `> HOLO.PINS`
 
 [![An image of @ritamroa's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/ritamroa)](https://holopin.io/@ritamroa)
