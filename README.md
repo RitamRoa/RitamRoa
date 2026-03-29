@@ -21,11 +21,10 @@
 </div>
 
 ### `> GITHUB.STATS`
-
 <div align="left">
 
-<img src="https://github-readme-stats.vercel.app/api?username=RitamRoa&show_icons=true&theme=transparent&hide_border=true&title_color=ff003c&icon_color=ff003c&text_color=880022&bg_color=0a0000" height="160"/>
-<img src="https://streak-stats.demolab.com?user=RitamRoa&theme=transparent&hide_border=true&ring=ff003c&fire=ff003c&currStreakLabel=ff003c&sideLabels=880022&currStreakNum=ff003c&sideNums=cc0028&dates=330008&background=0a0000" height="160"/>
+<img src="https://github-stats.vercel.app/api?username=RitamRoa&bg_color=0a0000&title_color=ff003c&text_color=880022&icon_color=ff003c&hide_border=true" height="160"/>
+<img src="https://streak-stats.demolab.com/?user=RitamRoa&theme=transparent&hide_border=true&ring=ff003c&fire=ff003c&currStreakLabel=ff003c&sideLabels=880022&currStreakNum=ff003c&sideNums=cc0028&dates=330008&background=0a0000" height="160"/>
 
 </div>
 
