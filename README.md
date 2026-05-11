@@ -7,8 +7,7 @@
 [![](https://img.shields.io/badge/-@ritam.roa-0a0000?style=flat-square&logo=instagram&logoColor=ff003c)](https://instagram.com/ritam.roa)&nbsp;
 [![](https://img.shields.io/badge/-ritam--roa-0a0000?style=flat-square&logo=linkedin&logoColor=ff003c)](https://www.linkedin.com/in/ritam-roa)&nbsp;
 [![](https://img.shields.io/badge/-ritamrao48@gmail.com-0a0000?style=flat-square&logo=gmail&logoColor=ff003c)](mailto:ritamrao48@gmail.com)
-[![](https://img.shields.io/badge/-Spotify-0a0000?style=flat-square&logo=spotify&logoColor=1DB954)](https://open.spotify.com/user/2rboqfp6wm4tgqm1yxmdj1lm7?si=9fbb343a3ede4815)&nbsp;
-
+[![](https://img.shields.io/badge/-Spotify-0a0000?style=flat-square&logo=spotify&logoColor=ff003c)](https://open.spotify.com/user/2rboqfp6wm4tgqm1yxmdj1lm7?si=9fbb343a3ede4815)&nbsp;
 <div align="left">
 
 ### `> TECH.STACK`
